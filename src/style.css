@@ -1,0 +1,50 @@
+
+.btn-row{
+    display: flex;
+    height: 100%;
+    justify-content:center;
+
+}
+.description{
+    justify-content: left;
+}
+.homePage-section{
+    height: 90vh;
+    background-color:white;
+    color: black;
+    font-size: 100;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+footer{
+    height: 10vh;
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    font-size: 50;
+    width: 25vw;
+}
+.homePage-text{
+    text-align: center;
+}
+button{
+    font-size: large;
+    align-self: center;
+    width: 150px;
+    height: 25px;
+    background-color:transparent;
+    text-align: center;
+    color: black;
+    border: none;
+}
+button:hover{
+    color: red;
+}
+button:active{
+    color: red;
+}
