@@ -5,14 +5,15 @@
         <meta charset="UTF-8">
         <title>Joseph Bean's Personal Projects</title>
     </head>
-    <body>
+    <body>                
+        <button class= "menu" id="menu" > Menu </button>
         <nav>
-            <div class="btn-row">
-                <button onclick = "window.open('homePage.html','_self');">Home Page</button>
-                <button onclick = "window.open('aboutMePage.html','_self');">About me!</button>
-                <button onclick = "window.open('otherProjects.html','_self');">OtherProjects</button>
-                <button onclick = "window.open('contacts.html','_self');">Contact</button>
-            </div>                
+                <div class="btn-row" id = "navMenu">
+                    <button onclick = "window.open('homePage.html','_self');">Home Page</button>
+                    <button onclick = "window.open('aboutMePage.html','_self');">About me!</button>
+                    <button onclick = "window.open('otherProjects.html','_self');">OtherProjects</button>
+                    <button onclick = "window.open('contacts.html','_self');">Contact</button>
+                </div>          
         </nav>
         <h1>My personal projects!</h1>
         <div class = "projects">
@@ -21,7 +22,6 @@
             <section class="project-box"></section>
             
         </div>
-        
-
+        <script src="main.js"></script>
     </body>
 </html>
