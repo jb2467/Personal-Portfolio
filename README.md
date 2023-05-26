@@ -1,2 +1,2 @@
 # Personal-Portfolio
-This is a personal portfolio for Joseph Bean! 
+This is a personal website for Joseph Bean! 
