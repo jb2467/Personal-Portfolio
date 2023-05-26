@@ -65,7 +65,17 @@ button:active{
     border: 1px solid #fdf4dc;
     margin: 10 px;
     color:#fdf4dc;
+    text-align: center;
     background-color: #a799b7;
+}
+.project-photo{
+
+    height: 95px;
+    width: 95px;
+}
+.project-name{
+    align-items: center;
+    color:#fdf4dc;
 }
 .project-box + .project-box{
     margin-top: 5%;
