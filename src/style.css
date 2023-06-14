@@ -98,6 +98,10 @@ button:active{
 .social+.social{
     margin-left: 24vw;
 }
+.git-link{
+    text-decoration: none;
+    color: #533a71;
+}
 /*
 This is making a drop down mennu
  with the links to other pages for mobile only
